@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    /* 把100vw平均分为750份 */
+    font-size: calc(100vw/750);
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
